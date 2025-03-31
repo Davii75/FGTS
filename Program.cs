@@ -1,9 +1,9 @@
-﻿double salario;
-double FGTS;
+﻿decimal salario;
+decimal FGTS;
 Console.WriteLine("Calcule seu FGTS");
 
 Console.Write("Digite o número do seu salário: ");
-salario = Convert.ToDouble(Console.ReadLine()!);
+salario = Convert.ToDecimal(Console.ReadLine()!);
 Console.Clear();
 
 Console.WriteLine($"Seu salário (R$): {salario}");
